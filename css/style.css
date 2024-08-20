@@ -1,73 +1,90 @@
 /* Generics */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-    width: 100%; 
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%; 
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
 }
- */
+*/
 /* footer {
-    padding: 30px;
-    color: white;
+  padding: 30px;
+  color: white;
 } */
 
 /* nav {
-    line-height: 30px;
-    background-color: aquamarine;
-    max-width: 1100px;
-    margin: 0 auto;
+  line-height: 30px;
+  background-color: aquamarine;
+  max-width: 1100px;
+  margin: 0 auto;
 } */
 
 /* nav > div{
-    padding: var(--nav-pd)
+  padding: var(--nav-pd)
 } */
 
 /* span {
-    margin: 0 5px;
+  margin: 0 5px;
 } */
 
 /* img {
-    width: 100%;
+  width: 100%;
 } */
 
 /* ul {
-    list-style-type: none;
-    
-    a {
-        text-decoration: none;
-        color: white;
-        margin-right: 5px;
-    }
+  list-style-type: none;
+  
+  a {
+      text-decoration: none;
+      color: white;
+      margin-right: 5px;
+  }
 
-    li:last-child a {
-        margin-right: 0;
-    }
-    
+  li:last-child a {
+      margin-right: 0;
+  }
+  
 } */
 
 /* Utilities */
 #carousel {
-    width: 800px;
-    height: 100%;
-    margin: 40px auto;
-    text-align: center;
+  width: 800px;
+  height: 100%;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
 }
 
 #carousel img {
-    height: 100%;
-    border-radius: 20px;
-    border: 2px solid slategrey;
-    display: none;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid slategrey;
+  display: none;
 }
 
 #carousel img.active {
-    display: inline-block;
+  display: inline-block;
+}
+
+.fa-solid {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.fa-caret-left {
+  left: 3%;        
+}
+
+.fa-caret-right {
+  right: 3%
 }
