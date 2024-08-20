@@ -67,3 +67,7 @@ body {
     border: 2px solid slategrey;
     display: none;
 }
+
+#carousel img.active {
+    display: inline-block;
+}
