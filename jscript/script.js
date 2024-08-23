@@ -29,6 +29,9 @@ images[activeIndex].classList.add('active');
 //EVENTI DINAMICI
 //6. Reazione al next
 nextButton.addEventListener('click', function () {
+  //blocco la funzione del bottone se sono alla fine
+  if (activeIndex == images.length - 1) return;
+
   //tolgo la classe dall'immagine con classe active
   images[activeIndex].classList.remove('active');
   
@@ -41,6 +44,9 @@ nextButton.addEventListener('click', function () {
 
 //7. Reazione al prev
 prevButton.addEventListener('click', function () {
+  //blocco la funzione del bottone se sono all'inizio
+  if (!activeIndex) return;
+
   //tolgo la classe dall'immagine con classe active
   images[activeIndex].classList.remove('active');
   
